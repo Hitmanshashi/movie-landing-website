@@ -149,12 +149,7 @@ header.shadow .navbar .logo{
     z-index: 1000;
     padding: 0 150px;
   }
-  /* .home-text div{
-    color: var(--bg-color);
-  
-    font-weight: 500;
-    text-transform: uppercase;
-  } */
+
   .home-text h1{
     color: var(--bg-color);
     font-size: 4rem;
@@ -463,42 +458,24 @@ font-size: 13px;
   }
 
   .active{
-    position: absolute;
+
     top: 100%;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    background: var(--bg-color);
-    row-gap: 1.4rem;
-    padding: 20px;
-    box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
-    text-align: center;
+
   }
-  .navbar li a{
+  .navbar  a{
     width: 100%;
     color: var(--text-color);
     text-decoration: none;
   }
-  .navbar li a:hover{
+  .navbar  a:hover{
     color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
   }
-  .navbar li a::after{
+  .navbar  a::after{
     display: none;
   }
     
-  /* .active a{
-    width: 100%;
-    color: var(--text-color);
-  }
-  .active:hover{
-    color: var(--main-color);
-    border-bottom: 2px solid var(--main-color);
-  }
-  .active a::after{
-    display: none;
-  } */
+
   .home-text h1{
     font-size: 2.4rem;
   }
