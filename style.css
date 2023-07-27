@@ -46,7 +46,7 @@
     justify-content: space-between;
     padding: 20px 100px;
     transition: 0.5s;
-    /* background: var(--main-color); */
+    
   }
 header.shadow{
   background: var(--bg-color);
